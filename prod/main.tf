@@ -8,5 +8,14 @@ terraform {
 }
 
 provider "aws" {
+
+default_tags{
+    tags={
+        Owner ="Tassio Marcelino"
+        Env   ="Producao"
+        class ="CLC10"
+    }
+}
+
   # Configuration options
 }
