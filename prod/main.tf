@@ -12,7 +12,7 @@ provider "aws" {
 default_tags{
     tags={
         Owner ="Tassio Marcelino"
-        Env   ="Producaoo"
+        Env   ="Produca"
         class ="CLC10"
     }
 }
